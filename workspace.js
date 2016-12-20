@@ -996,7 +996,7 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
             //End Touch Plate
 
              // Super Touch Plate
-            // http://raw.githubusercontent.com/PyroAVR/widget-super-touchplate/master/auto-generated-widget.html
+            // http://raw.githubusercontent.com/tgrover24/widget-super-touchplate/master/auto-generated-widget.html
             // Dynamically load, i.e. wait til user clicks on the button first time.
             this.superTouchPlateObj = function() {
                 return {
@@ -1036,8 +1036,8 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
                         var that = this;
                         chilipeppr.load(
                             "#com-chilipeppr-ws-superTouchplate",
-                            "http://raw.githubusercontent.com/PyroAVR/widget-super-touchplate/master/auto-generated-widget.html",
-                            // "http://raw.githubusercontent.com/PyroAVR/widget-super-touchplate/tabs/auto-generated-widget.html",
+                            "http://raw.githubusercontent.com/tgrover24/widget-super-touchplate/master/auto-generated-widget.html",
+                            // "http://raw.githubusercontent.com/tgrover24/widget-super-touchplate/tabs/auto-generated-widget.html",
                             function() {
                                 require(["inline:com-chilipeppr-widget-super-touchplate"], function(superTouchPlate) {
                                     that.superTouchPlateInstance = superTouchPlate;
